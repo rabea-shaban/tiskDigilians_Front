@@ -1,0 +1,11 @@
+html
+
+h1 => h6
+p
+a
+span
+img
+table 
+
+inline 
+block

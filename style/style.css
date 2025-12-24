@@ -1,0 +1,163 @@
+/* form.custom-form {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background: #f9f9f9;
+}
+.custom-form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #333;
+}
+.custom-form input[type="text"],
+.custom-form input[type="date"],
+.custom-form input[list],
+.custom-form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 12px;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+.custom-form input[type="text"],
+.custom-form textarea {
+  border: 1px solid #aaa;
+}
+.custom-form input[type="date"],
+.custom-form input[list] {
+  border: 1px solid #ccc;
+}
+.custom-form input[type="file"] {
+  display: block;
+  margin-bottom: 12px;
+}
+.custom-form textarea {
+  resize: vertical;
+}
+.custom-form button[type="submit"] {
+  padding: 10px 20px;
+  background: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.btn-send {
+  background: #04abe2;
+  padding: 12px 30px;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.btn-send:hover {
+  background: #2ccaff;
+  transform: scale(1.1);
+} */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/*
+body {
+  width: 90%;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.card {
+  width: 30%;
+  margin: auto;
+
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 0px 8px 0px #ccc;
+
+  img {
+    width: 100%;
+  }
+
+  .info {
+    margin: 0;
+    padding: 0 10px;
+    text-align: center;
+    margin-bottom: 5px;
+    h5 {
+      color: rgb(37, 37, 37);
+      font-size: 15px;
+    }
+    p {
+      color: gray;
+      font-size: 13px;
+    }
+    a {
+      color: gray;
+      font-size: 14px;
+      text-decoration: none;
+
+      display: block;
+    }
+  }
+}
+
+
+
+
+
+@media (max-width: 623px) {
+  .card {
+    width: 100%;
+  }
+}
+*/
+.container{
+  width: 95%;
+  margin: auto;
+}
+header{
+  box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.326);
+  height: 30px;
+  line-height: 20px ;
+nav{
+  h4{
+    color: black;
+  }
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  ul{
+    display: flex;
+    justify-content:space-between;
+    list-style: none;
+  }
+  li{
+    margin: 5px;
+
+    a{
+      text-decoration: none;
+      color: #006eff;
+      transition: .5s;
+    }
+    a:hover{
+      color: #00d5ff;
+    }
+  }
+
+}}
