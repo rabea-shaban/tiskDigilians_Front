@@ -1,3 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Rubik+Gemstones&display=swap");
+:root {
+  --main_color: #ff8800;
+  --text-color: #cdc9c9;
+}
+
+/*====> Global Css  <======*/
 * {
   margin: 0;
   padding: 0;
@@ -7,6 +14,14 @@
   width: 80%;
   margin: auto;
 }
+
+
+
+
+
+
+/*====> socil media  <======*/
+
 .socilmediaSEC {
   box-shadow: 0 0 5px 0px gray;
   padding: 10px;
@@ -66,7 +81,7 @@
         text-align: center;
       }
       .orange {
-        background-color: #ff8800 !important;
+        background-color: var(--main_color) !important;
       }
     }
     .info {
@@ -77,14 +92,14 @@
         font-size: 30px;
       }
       p {
-        color: lightslategray;
+        color: var(--text-color);
         margin-bottom: 50px;
         font-size: 18px;
       }
     }
 
     button {
-      background: #ff8800;
+      background: var(--main_color);
       border: none;
       border-radius: 10px;
       padding: 10px 30px;
@@ -107,9 +122,112 @@
 
   .title {
     text-align: center;
-    h5{
-        font-size: 20px;
-        margin-bottom: 10px;
+    h5 {
+      font-size: 20px;
+      font-family: "Rubik Gemstones", system-ui;
+      font-weight: 400;
+      font-style: normal;
+    }
+    p {
+      color: var(--text-color);
     }
   }
+
+  .box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+    margin-top: 60px;
+    .card {
+      width: 30%;
+      text-align: center;
+      .icon i {
+        margin-bottom: 30px;
+        border: 2px solid var(--main_color);
+        width: 65px;
+        height: 65px;
+        line-height: 2.2;
+        font-size: 30px;
+        color: var(--main_color);
+        border-radius: 50%;
+      }
+      .card-Body {
+        margin-bottom: 20px;
+        h5 {
+          margin-bottom: 30px;
+          font-weight: bold;
+          font-size: 20px;
+        }
+        p {
+          color: var(--text-color);
+        }
+      }
+    }
+  }
+}
+.borderTitle {
+  width: 15%;
+  border: 2px solid var(--main_color);
+  margin: 15px auto;
+}
+
+.conact_Us {
+  .title {
+    text-align: center;
+    margin: 40px 0;
+    h5 {
+      font-size: 22px;
+    }
+    p {
+      color: var(--text-color);
+    }
+  }
+
+  form {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+
+    .right {
+      width: 50%;
+      input {
+        display: block;
+        width: 100%;
+        height: 30px;
+        margin-bottom: 5px;
+        padding: 10px;
+        border: none;
+        font-size: 16px;
+        color: var(--text-color);
+        border-bottom: 1px solid #ddd;
+
+        &:focus {
+          outline: none;
+        }
+      }
+    }
+    .left {
+      width: 40%;
+      margin-left: 10%;
+      textarea {
+        display: block;
+        width: 100%;
+        height: 100;
+        padding: 10px;
+        border: none;
+        font-size: 16px;
+        color: var(--text-color);
+        border-bottom: 1px solid #ddd;
+
+        &:focus {
+          outline: none;
+        }
+      }
+    }
+  }
+
+  margin-bottom: 100px;
+  margin-top: 100px;
 }
